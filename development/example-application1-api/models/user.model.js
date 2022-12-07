@@ -7,7 +7,7 @@ module.exports = (sequelize, Sequelize) => {
     password : { type: Sequelize.STRING },
     role : { type: Sequelize.STRING },
     belongsTo : { type: Sequelize.STRING },
-    
+    // here change in commit-1
     birthDate: {
       type: Sequelize.DATE,
       get() {
