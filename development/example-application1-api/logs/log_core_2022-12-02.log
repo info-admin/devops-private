@@ -1,0 +1,160 @@
+2022-12-02 20:51:23 [INFO] Server listening on port 3080
+2022-12-02 21:13:39 #1 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getEnv Body: {}
+2022-12-02 21:13:39 [INFO] Getting params ...
+2022-12-02 21:13:39 #2 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getDate Body: {}
+2022-12-02 21:13:39 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 21:13:39 [INFO] Server time: 2022-12-02T20:13:39.937Z
+2022-12-02 21:13:39 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 21:13:39
+2022-12-02 21:13:39 #2 [SEND] Status: 200 Body: "02/12/2022 21:13:39"
+2022-12-02 21:13:39 #3 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/params Body: {}
+2022-12-02 21:13:39 [INFO] Getting params ...
+2022-12-02 21:13:39 #4 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 21:13:39 [INFO] Getting users ...
+2022-12-02 21:13:44 #3 [ERROR] {
+  code: '52',
+  message: 'Database error',
+  additionalInfo: 'SequelizeConnectionError'
+}
+2022-12-02 21:13:44 #3 [SEND] Status: 400 Body: {
+  error: {
+    code: '52',
+    message: 'Database error',
+    additionalInfo: 'SequelizeConnectionError'
+  }
+}
+2022-12-02 21:13:44 #4 [ERROR] {
+  code: '52',
+  message: 'Database error',
+  additionalInfo: 'SequelizeConnectionError'
+}
+2022-12-02 21:13:44 #4 [SEND] Status: 400 Body: {
+  error: {
+    code: '52',
+    message: 'Database error',
+    additionalInfo: 'SequelizeConnectionError'
+  }
+}
+2022-12-02 21:13:44 #1 [ERROR] {
+  code: '52',
+  message: 'Database error',
+  additionalInfo: 'SequelizeConnectionError'
+}
+2022-12-02 21:13:44 #1 [SEND] Status: 400 Body: {
+  error: {
+    code: '52',
+    message: 'Database error',
+    additionalInfo: 'SequelizeConnectionError'
+  }
+}
+2022-12-02 21:13:55 #5 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 21:13:55 [INFO] Getting users ...
+2022-12-02 21:13:59 #6 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 21:13:59 [INFO] Getting users ...
+2022-12-02 21:14:00 #5 [ERROR] {
+  code: '52',
+  message: 'Database error',
+  additionalInfo: 'SequelizeConnectionError'
+}
+2022-12-02 21:14:00 #5 [SEND] Status: 400 Body: {
+  error: {
+    code: '52',
+    message: 'Database error',
+    additionalInfo: 'SequelizeConnectionError'
+  }
+}
+2022-12-02 21:14:00 #6 [ERROR] {
+  code: '52',
+  message: 'Database error',
+  additionalInfo: 'SequelizeConnectionError'
+}
+2022-12-02 21:14:00 #6 [SEND] Status: 400 Body: {
+  error: {
+    code: '52',
+    message: 'Database error',
+    additionalInfo: 'SequelizeConnectionError'
+  }
+}
+2022-12-02 21:15:51 [INFO] Server listening on port 3080
+2022-12-02 21:15:52 [INFO] DB SYNC invoked
+2022-12-02 21:15:52 [INFO] DB feeded
+2022-12-02 21:17:46 #1 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getEnv Body: {}
+2022-12-02 21:17:46 [INFO] Getting params ...
+2022-12-02 21:17:46 #2 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getDate Body: {}
+2022-12-02 21:17:46 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 21:17:46 [INFO] Server time: 2022-12-02T20:17:46.500Z
+2022-12-02 21:17:46 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 21:17:46
+2022-12-02 21:17:46 #2 [SEND] Status: 200 Body: "02/12/2022 21:17:46"
+2022-12-02 21:17:46 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-02 21:17:46 #1 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-02 21:17:46 #3 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 21:17:46 [INFO] Getting users ...
+2022-12-02 21:17:46 #4 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/params Body: {}
+2022-12-02 21:17:46 [INFO] Getting params ...
+2022-12-02 21:17:46 #3 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 21:17:46 #4 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]
+2022-12-02 21:19:39 #5 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-12-02 21:19:39 [INFO] Getting users ...
+2022-12-02 21:19:39 #5 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 21:26:52 [INFO] Server listening on port 3080
+2022-12-02 21:26:52 [INFO] DB SYNC invoked
+2022-12-02 21:26:52 [INFO] DB feeded
+2022-12-02 21:28:47 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getEnv Body: {}
+2022-12-02 21:28:47 [INFO] Getting params ...
+2022-12-02 21:28:47 #2 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getDate Body: {}
+2022-12-02 21:28:47 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 21:28:47 [INFO] Server time: 2022-12-02T20:28:47.683Z
+2022-12-02 21:28:47 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 21:28:47
+2022-12-02 21:28:47 #2 [SEND] Status: 200 Body: "02/12/2022 21:28:47"
+2022-12-02 21:28:47 #3 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-12-02 21:28:47 [INFO] Getting users ...
+2022-12-02 21:28:47 #4 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/params Body: {}
+2022-12-02 21:28:47 [INFO] Getting params ...
+2022-12-02 21:28:47 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-02 21:28:47 #1 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-02 21:28:47 #4 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]
+2022-12-02 21:28:47 #3 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 23:37:34 #5 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getEnv Body: {}
+2022-12-02 23:37:34 [INFO] Getting params ...
+2022-12-02 23:37:34 #6 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getDate Body: {}
+2022-12-02 23:37:34 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 23:37:34 [INFO] Server time: 2022-12-02T22:37:34.525Z
+2022-12-02 23:37:34 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 23:37:34
+2022-12-02 23:37:34 #6 [SEND] Status: 200 Body: "02/12/2022 23:37:34"
+2022-12-02 23:37:34 #7 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 23:37:34 [INFO] Getting users ...
+2022-12-02 23:37:34 #8 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/params Body: {}
+2022-12-02 23:37:34 [INFO] Getting params ...
+2022-12-02 23:37:34 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-02 23:37:34 #5 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-02 23:37:34 #7 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 23:37:34 #8 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]
+2022-12-02 23:41:55 #9 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getEnv Body: {}
+2022-12-02 23:41:55 [INFO] Getting params ...
+2022-12-02 23:41:55 #10 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getDate Body: {}
+2022-12-02 23:41:55 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 23:41:55 [INFO] Server time: 2022-12-02T22:41:55.596Z
+2022-12-02 23:41:55 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 23:41:55
+2022-12-02 23:41:55 #10 [SEND] Status: 200 Body: "02/12/2022 23:41:55"
+2022-12-02 23:41:55 #11 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-12-02 23:41:55 [INFO] Getting users ...
+2022-12-02 23:41:55 #12 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/params Body: {}
+2022-12-02 23:41:55 [INFO] Getting params ...
+2022-12-02 23:41:55 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-02 23:41:55 #9 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-02 23:41:55 #12 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]
+2022-12-02 23:41:55 #11 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 23:42:01 #13 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getEnv Body: {}
+2022-12-02 23:42:01 [INFO] Getting params ...
+2022-12-02 23:42:01 #14 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getDate Body: {}
+2022-12-02 23:42:01 [INFO] process.env.TZ: Africa/Tunis
+2022-12-02 23:42:01 [INFO] Server time: 2022-12-02T22:42:01.626Z
+2022-12-02 23:42:01 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 02/12/2022 23:42:01
+2022-12-02 23:42:01 #14 [SEND] Status: 200 Body: "02/12/2022 23:42:01"
+2022-12-02 23:42:01 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-02 23:42:01 #13 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-02 23:42:01 #15 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-12-02 23:42:01 [INFO] Getting users ...
+2022-12-02 23:42:01 #16 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/params Body: {}
+2022-12-02 23:42:01 [INFO] Getting params ...
+2022-12-02 23:42:01 #15 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-02 23:42:01 #16 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]

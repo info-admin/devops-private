@@ -1,0 +1,276 @@
+2022-11-27 08:54:43 [INFO] Server listening on port 3080
+2022-11-27 08:54:43 [INFO] DB SYNC invoked
+2022-11-27 08:54:43 [INFO] DB feeded
+2022-11-27 09:03:21 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getEnv Body: {}
+2022-11-27 09:03:21 [INFO] Getting params ...
+2022-11-27 09:03:21 #2 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getDate Body: {}
+2022-11-27 09:03:21 [INFO] process.env.TZ: Africa/Tunis
+2022-11-27 09:03:21 [INFO] Server time: 2022-11-27T08:03:21.587Z
+2022-11-27 09:03:21 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 27/11/2022 09:03:21
+2022-11-27 09:03:21 #2 [SEND] Status: 200 Body: "27/11/2022 09:03:21"
+2022-11-27 09:03:21 #3 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-11-27 09:03:21 [INFO] Getting users ...
+2022-11-27 09:03:21 #4 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/params Body: {}
+2022-11-27 09:03:21 [INFO] Getting params ...
+2022-11-27 09:03:21 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-11-27 09:03:21 #1 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-11-27 09:03:21 #3 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-11-27 09:03:21 #4 [SEND] Status: 200 Body: [{"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"PARAM1","value":"ABCDEF"}]
+2022-11-27 10:17:09 [INFO] landing page
+2022-11-27 10:17:09 #undefined [ORIGINAL ERROR] [Error: ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/usr/src/app/example-application1-vue/build/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+2022-11-27 10:17:09 #undefined [ERROR] {
+  code: '99',
+  message: 'Internal server error',
+  additionalInfo: "ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'"
+}
+2022-11-27 10:17:17 #5 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v2 Body: {}
+2022-11-27 10:17:17 #5 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v2' }
+2022-11-27 10:17:17 #5 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v2' }
+}
+2022-11-27 10:17:22 #6 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 10:17:22 #6 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1 Body: {}
+2022-11-27 10:17:22 #6 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 10:17:27 #7 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1/users Body: {}
+2022-11-27 10:17:27 #7 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1/users' }
+2022-11-27 10:17:27 #7 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1/users' }
+}
+2022-11-27 17:58:06 [INFO] Server listening on port 3080
+2022-11-27 17:58:06 [INFO] DB SYNC invoked
+2022-11-27 17:58:06 [INFO] DB feeded
+2022-11-27 17:58:44 [INFO] Server listening on port 3080
+2022-11-27 17:58:44 [INFO] DB SYNC invoked
+2022-11-27 17:58:44 [INFO] DB feeded
+2022-11-27 17:58:56 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getEnv Body: {}
+2022-11-27 17:58:56 [INFO] Getting params ...
+2022-11-27 17:58:56 #2 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getDate Body: {}
+2022-11-27 17:58:56 [INFO] process.env.TZ: Africa/Tunis
+2022-11-27 17:58:56 [INFO] Server time: 2022-11-27T16:58:56.733Z
+2022-11-27 17:58:56 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 27/11/2022 17:58:56
+2022-11-27 17:58:56 #2 [SEND] Status: 200 Body: "27/11/2022 17:58:56"
+2022-11-27 17:58:56 #3 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-11-27 17:58:56 [INFO] Getting users ...
+2022-11-27 17:58:56 #4 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/params Body: {}
+2022-11-27 17:58:56 [INFO] Getting params ...
+2022-11-27 17:58:56 #3 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-11-27 17:58:56 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-11-27 17:58:56 #1 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-11-27 17:58:56 #4 [SEND] Status: 200 Body: [{"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"PARAM1","value":"ABCDEF"}]
+2022-11-27 17:59:19 #5 [RECV] ::ffff:172.19.0.1 http 1.1 POST /api/users Body: {
+  firstName: 'med',
+  lastName: 'tarcheni',
+  email: 'm.tarcheni@gmail.com',
+  id: ''
+}
+2022-11-27 17:59:20 [INFO] Adding user :  {
+  firstName: 'med',
+  lastName: 'tarcheni',
+  email: 'm.tarcheni@gmail.com',
+  id: '2wpnYtTqyt'
+}
+2022-11-27 17:59:20 #5 [SEND] Status: 200 Body: {"birthDate":null,"createdAt":"2022-11-27 17:59:20","updatedAt":"2022-11-27 17:59:20","firstName":"med","lastName":"tarcheni","email":"m.tarcheni@gmail.com","id":"2wpnYtTqyt","password":null,"role":null,"belongsTo":null}
+2022-11-27 17:59:20 #6 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-11-27 17:59:20 [INFO] Getting users ...
+2022-11-27 17:59:20 #6 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null},{"birthDate":null,"createdAt":"2022-11-27 17:59:20","updatedAt":"2022-11-27 17:59:20","id":"2wpnYtTqyt","firstName":"med","lastName":"tarcheni","email":"m.tarcheni@gmail.com","password":null,"role":null,"belongsTo":null}]
+2022-11-27 18:08:06 [INFO] Server listening on port 3080
+2022-11-27 18:08:06 [INFO] DB SYNC invoked
+2022-11-27 18:08:06 [INFO] DB feeded
+2022-11-27 18:15:25 [INFO] Server listening on port 3080
+2022-11-27 18:15:25 [INFO] DB SYNC invoked
+2022-11-27 18:15:25 [INFO] DB feeded
+2022-11-27 18:17:39 [INFO] Server listening on port 3080
+2022-11-27 18:17:39 [INFO] DB SYNC invoked
+2022-11-27 18:17:39 [INFO] DB feeded
+2022-11-27 18:22:10 [INFO] Server listening on port 3080
+2022-11-27 18:22:10 [INFO] DB SYNC invoked
+2022-11-27 18:22:10 [INFO] DB feeded
+2022-11-27 18:26:11 [INFO] landing page
+2022-11-27 18:26:11 #undefined [ORIGINAL ERROR] [Error: ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/usr/src/app/example-application1-vue/build/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+2022-11-27 18:26:11 #undefined [ERROR] {
+  code: '99',
+  message: 'Internal server error',
+  additionalInfo: "ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'"
+}
+2022-11-27 18:27:17 [INFO] Server listening on port 3080
+2022-11-27 18:27:17 [INFO] DB SYNC invoked
+2022-11-27 18:27:17 [INFO] DB feeded
+2022-11-27 18:28:29 [INFO] Server listening on port 3080
+2022-11-27 18:28:29 [INFO] DB SYNC invoked
+2022-11-27 18:28:29 [INFO] DB feeded
+2022-11-27 18:29:47 [INFO] Server listening on port 3080
+2022-11-27 18:29:47 [INFO] DB SYNC invoked
+2022-11-27 18:29:47 [INFO] DB feeded
+2022-11-27 18:36:43 [INFO] landing page
+2022-11-27 18:36:43 #undefined [ORIGINAL ERROR] [Error: ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/usr/src/app/example-application1-vue/build/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+2022-11-27 18:36:43 #undefined [ERROR] {
+  code: '99',
+  message: 'Internal server error',
+  additionalInfo: "ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'"
+}
+2022-11-27 18:37:09 #1 [RECV] ::ffff:172.19.0.5 http 1.1 GET /v1 Body: {}
+2022-11-27 18:37:09 #1 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 18:37:09 #1 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 18:37:23 #2 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1 Body: {}
+2022-11-27 18:37:23 #2 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 18:37:23 #2 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 18:37:35 #3 [RECV] ::ffff:172.19.0.5 http 1.1 GET /v2 Body: {}
+2022-11-27 18:37:35 #3 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v2' }
+2022-11-27 18:37:35 #3 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v2' }
+}
+2022-11-27 18:37:42 #4 [RECV] ::ffff:172.19.0.5 http 1.1 GET /v2/users Body: {}
+2022-11-27 18:37:42 #4 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v2/users' }
+2022-11-27 18:37:42 #4 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v2/users' }
+}
+2022-11-27 18:38:59 #5 [RECV] ::ffff:172.19.0.5 http 1.1 GET /users Body: {}
+2022-11-27 18:38:59 #5 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+2022-11-27 18:38:59 #5 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+}
+2022-11-27 18:39:32 #6 [RECV] ::ffff:172.19.0.5 http 1.1 GET /users Body: {}
+2022-11-27 18:39:32 #6 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+2022-11-27 18:39:32 #6 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+}
+2022-11-27 19:07:53 [INFO] Server listening on port 3080
+2022-11-27 19:07:53 [INFO] DB SYNC invoked
+2022-11-27 19:07:53 [INFO] DB feeded
+2022-11-27 19:09:40 [INFO] Server listening on port 3080
+2022-11-27 19:09:40 [INFO] DB SYNC invoked
+2022-11-27 19:09:40 [INFO] DB feeded
+2022-11-27 19:10:39 [INFO] Server listening on port 3080
+2022-11-27 19:10:39 [INFO] DB SYNC invoked
+2022-11-27 19:10:39 [INFO] DB feeded
+2022-11-27 19:15:59 [INFO] Server listening on port 3080
+2022-11-27 19:15:59 [INFO] DB SYNC invoked
+2022-11-27 19:15:59 [INFO] DB feeded
+2022-11-27 19:29:06 [INFO] Server listening on port 3080
+2022-11-27 19:29:06 [INFO] DB SYNC invoked
+2022-11-27 19:29:06 [INFO] DB feeded
+2022-11-27 19:32:46 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /users Body: {}
+2022-11-27 19:32:46 #1 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+2022-11-27 19:32:46 #1 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/users' }
+}
+2022-11-27 19:33:03 [INFO] landing page
+2022-11-27 19:33:03 #undefined [ORIGINAL ERROR] [Error: ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/usr/src/app/example-application1-vue/build/index.html',
+  expose: false,
+  statusCode: 404,
+  status: 404
+}
+2022-11-27 19:33:03 #undefined [ERROR] {
+  code: '99',
+  message: 'Internal server error',
+  additionalInfo: "ENOENT: no such file or directory, stat '/usr/src/app/example-application1-vue/build/index.html'"
+}
+2022-11-27 19:33:23 #2 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1 Body: {}
+2022-11-27 19:33:23 #2 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 19:33:23 #2 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 19:39:28 [INFO] Server listening on port 3080
+2022-11-27 19:39:28 [INFO] DB SYNC invoked
+2022-11-27 19:39:28 [INFO] DB feeded
+2022-11-27 19:39:55 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1 Body: {}
+2022-11-27 19:39:55 #1 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 19:39:55 #1 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 19:47:13 [INFO] Server listening on port 3080
+2022-11-27 19:47:13 [INFO] DB SYNC invoked
+2022-11-27 19:47:13 [INFO] DB feeded
+2022-11-27 19:51:32 [INFO] Server listening on port 3080
+2022-11-27 19:51:32 [INFO] DB SYNC invoked
+2022-11-27 19:51:32 [INFO] DB feeded
+2022-11-27 19:59:22 [INFO] Server listening on port 3080
+2022-11-27 19:59:22 [INFO] DB SYNC invoked
+2022-11-27 19:59:22 [INFO] DB feeded
+2022-11-27 20:00:03 [INFO] Server listening on port 3080
+2022-11-27 20:00:03 [INFO] DB SYNC invoked
+2022-11-27 20:00:03 [INFO] DB feeded
+2022-11-27 20:02:39 [INFO] Server listening on port 3080
+2022-11-27 20:02:39 [INFO] DB SYNC invoked
+2022-11-27 20:02:39 [INFO] DB feeded
+2022-11-27 20:08:15 [INFO] Server listening on port 3080
+2022-11-27 20:08:15 [INFO] DB SYNC invoked
+2022-11-27 20:08:15 [INFO] DB feeded
+2022-11-27 20:11:35 #1 [RECV] ::ffff:172.19.0.1 http 1.1 GET /v1 Body: {}
+2022-11-27 20:11:35 #1 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+2022-11-27 20:11:35 #1 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '/v1' }
+}
+2022-11-27 20:13:14 [INFO] Server listening on port 3080
+2022-11-27 20:13:14 [INFO] DB SYNC invoked
+2022-11-27 20:13:14 [INFO] DB feeded
+2022-11-27 20:13:27 #1 [RECV] ::ffff:172.19.0.1 http 1.0 POST //users Body: {
+  firstName: 'hhhh',
+  lastName: 'kkkkk',
+  email: 'ahhhhh@gmail.com',
+  id: ''
+}
+2022-11-27 20:13:28 #1 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '//users' }
+2022-11-27 20:13:28 #1 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '//users' }
+}
+2022-11-27 20:13:28 #2 [RECV] ::ffff:172.19.0.1 http 1.0 GET //users Body: {}
+2022-11-27 20:13:28 #2 [ERROR] { code: '53', message: 'Invalid URL', additionalInfo: '//users' }
+2022-11-27 20:13:28 #2 [SEND] Status: 404 Body: {
+  error: { code: '53', message: 'Invalid URL', additionalInfo: '//users' }
+}
+2022-11-27 20:14:22 [INFO] Server listening on port 3080
+2022-11-27 20:14:22 [INFO] DB SYNC invoked
+2022-11-27 20:14:22 [INFO] DB feeded
+2022-11-27 20:14:31 #1 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-11-27 20:14:31 [INFO] Getting users ...
+2022-11-27 20:14:31 #1 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null},{"birthDate":null,"createdAt":"2022-11-27 17:59:20","updatedAt":"2022-11-27 17:59:20","id":"2wpnYtTqyt","firstName":"med","lastName":"tarcheni","email":"m.tarcheni@gmail.com","password":null,"role":null,"belongsTo":null}]
+2022-11-27 21:42:39 #2 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getEnv Body: {}
+2022-11-27 21:42:39 [INFO] Getting params ...
+2022-11-27 21:42:39 #3 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/getDate Body: {}
+2022-11-27 21:42:39 [INFO] process.env.TZ: Africa/Tunis
+2022-11-27 21:42:39 [INFO] Server time: 2022-11-27T20:42:39.148Z
+2022-11-27 21:42:39 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 27/11/2022 21:42:39
+2022-11-27 21:42:39 #3 [SEND] Status: 200 Body: "27/11/2022 21:42:39"
+2022-11-27 21:42:39 #4 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/users Body: {}
+2022-11-27 21:42:39 [INFO] Getting users ...
+2022-11-27 21:42:39 #5 [RECV] ::ffff:172.19.0.1 http 1.0 GET /api/params Body: {}
+2022-11-27 21:42:39 [INFO] Getting params ...
+2022-11-27 21:42:39 #4 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null},{"birthDate":null,"createdAt":"2022-11-27 17:59:20","updatedAt":"2022-11-27 17:59:20","id":"2wpnYtTqyt","firstName":"med","lastName":"tarcheni","email":"m.tarcheni@gmail.com","password":null,"role":null,"belongsTo":null}]
+2022-11-27 21:42:39 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-11-27 21:42:39 #2 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-11-27 21:42:39 #5 [SEND] Status: 200 Body: [{"createdAt":"2022-11-27 08:42:29","updatedAt":"2022-11-27 08:42:29","id":"PARAM1","value":"ABCDEF"}]

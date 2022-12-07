@@ -1,0 +1,49 @@
+version: '3'
+services:
+
+  swagger-ui:
+    hostname: swagger-ui
+    container_name: swagger-ui
+    image: swaggerapi/swagger-ui
+    restart: always
+    environment:
+      - BASE_URL=/
+      - SWAGGER_JSON=/apis/api-doc.yml
+      - ENABLE_CORS=true
+    volumes:
+      - ./swagger-ui/:/apis
+    ports:
+      - "5015:8080"
+
+  backend-api:
+    hostname: backend-api
+    container_name: backend-api
+    image: backend-api
+    build:
+      context:  ./
+      dockerfile: Dockerfile-back
+
+    ports:
+      - "3080:3080"
+    volumes:
+       - ./example-application1-api:/usr/src/app/example-application1-api
+       - /usr/src/app/example-application1-api/node_modules
+      
+  frontend-vue:
+    hostname: frontend-vue
+    container_name: frontend-vue
+    image: frontend-vue
+    build:
+      context: ./
+      dockerfile: Dockerfile-front
+    ports:
+      - "8090:8090"
+    volumes:
+       - ./example-application1-vue:/usr/src/app/example-application1-vue
+       - /usr/src/app/example-application1-vue/node_modules
+
+
+networks:
+  default:
+    external:
+      name: devops

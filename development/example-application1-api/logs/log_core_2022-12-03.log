@@ -1,0 +1,24 @@
+2022-12-03 00:07:34 #17 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getEnv Body: {}
+2022-12-03 00:07:34 [INFO] Getting params ...
+2022-12-03 00:07:34 #18 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/getDate Body: {}
+2022-12-03 00:07:34 [INFO] process.env.TZ: Africa/Tunis
+2022-12-03 00:07:34 [INFO] Server time: 2022-12-02T23:07:34.732Z
+2022-12-03 00:07:34 [INFO] Server formatted (toLocaleString pt-BR ==> JJ/MM/AAAA HH:MM:SS) datetime: 03/12/2022 00:07:34
+2022-12-03 00:07:34 #18 [SEND] Status: 200 Body: "03/12/2022 00:07:34"
+2022-12-03 00:07:34 #19 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/users Body: {}
+2022-12-03 00:07:34 [INFO] Getting users ...
+2022-12-03 00:07:34 #20 [RECV] ::ffff:172.19.0.1 http 1.1 GET /api/params Body: {}
+2022-12-03 00:07:34 [INFO] Getting params ...
+2022-12-03 00:07:34 [INFO] Server param PARAM1: { id: 'PARAM1', value: 'ABCDEF' }
+2022-12-03 00:07:34 #17 [SEND] Status: 200 Body: {"id":"PARAM1","value":"ABCDEF"}
+2022-12-03 00:07:34 #19 [SEND] Status: 200 Body: [{"birthDate":null,"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"1234","firstName":"amine","lastName":"djebbi","email":"aminedjebie@gmail.com","password":"Test.123","role":"ADMIN","belongsTo":null}]
+2022-12-03 00:07:34 #20 [SEND] Status: 200 Body: [{"createdAt":"2022-12-02 21:15:52","updatedAt":"2022-12-02 21:15:52","id":"PARAM1","value":"ABCDEF"}]
+2022-12-03 00:34:27 [INFO] Server listening on port 3080
+2022-12-03 00:34:27 [INFO] DB SYNC invoked
+2022-12-03 00:34:27 [INFO] DB feeded
+2022-12-03 00:42:50 [INFO] Server listening on port 3080
+2022-12-03 00:42:50 [INFO] DB SYNC invoked
+2022-12-03 00:42:50 [INFO] DB feeded
+2022-12-03 00:45:11 [INFO] Server listening on port 3080
+2022-12-03 00:45:11 [INFO] DB SYNC invoked
+2022-12-03 00:45:11 [INFO] DB feeded

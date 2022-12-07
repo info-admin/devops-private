@@ -1,0 +1,31 @@
+FROM example-application1-vue:latest AS frontend
+
+#ENV VUE_APP_AAA='DEV FRONT..##..'
+
+WORKDIR /app
+
+RUN npm install
+
+COPY . /app/
+
+RUN npm run build
+
+
+
+FROM nginx:1.13.12-alpine AS deploy 
+
+
+COPY --from=frontend /app/dist /usr/share/nginx/html
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf 
+
+
+#ENV XXX='DEV BACK..##..'
+
+# RUN npm run build
+
+EXPOSE 8090
+
+CMD ["nginx", "-g", "daemon off;"]
+
+
