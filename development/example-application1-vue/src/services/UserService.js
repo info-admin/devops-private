@@ -2,7 +2,7 @@ export async function getAllUsers() {
     const response = await fetch('/api/users');
     return await response.json();
 }
-
+// here chang in comm 1
 export async function createUser(data) {
     const response = await fetch(`/api/users`, {
         method: 'POST',
@@ -11,7 +11,7 @@ export async function createUser(data) {
       })
     return await response.json();
 }
-
+// here change in commit 2
 
 export async function getDate() {
     const response = await fetch(`/api/getDate`);
