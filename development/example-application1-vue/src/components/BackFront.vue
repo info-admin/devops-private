@@ -30,6 +30,7 @@ export default {
       timer: "",
     };
   },
+  // here chang in commit 2 -b new-view-chart
   created() {
     this.refresh();
     //this.timer = setInterval(this.refresh, 5000);
