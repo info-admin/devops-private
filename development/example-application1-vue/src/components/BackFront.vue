@@ -39,6 +39,7 @@ export default {
     //clearInterval(this.timer);
   },
   methods: {
+    // first commit in new-api-fix
     async refresh() {
       this.getFrontendEnv();
       this.getBackendEnv();
