@@ -11,7 +11,7 @@ export async function createUser(data) {
       })
     return await response.json();
 }
-
+// here change in commit 2
 
 export async function getDate() {
     const response = await fetch(`/api/getDate`);
