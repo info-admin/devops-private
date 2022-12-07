@@ -2,7 +2,7 @@ export async function getAllUsers() {
     const response = await fetch('/api/users');
     return await response.json();
 }
-
+// here chang in comm 1
 export async function createUser(data) {
     const response = await fetch(`/api/users`, {
         method: 'POST',
