@@ -1,5 +1,5 @@
 const miscServices = require("../services/auth.services");
-
+// here chang in commit-1
 exports.login = async (req, res, next) => {
   const id = req.query.id;
   const password = req.query.password;

@@ -14,7 +14,7 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
     idle: dbConfig.pool.idle,
   },
 });
-
+// chang in commit 2
 const db = {};
 
 db.Sequelize = Sequelize;
