@@ -4,6 +4,7 @@ export async function getAllUsers() {
 }
 // here chang in comm 1
 export async function createUser(data) {
+    // some changes in the view after day2_api_fixes
     const response = await fetch(`/api/users`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
