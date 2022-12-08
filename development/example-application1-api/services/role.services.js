@@ -18,7 +18,7 @@ exports.checkPermission = async (permission, role) => {
 
   return "ok";
 };
-
+// change in commit 2
 exports.getRoles = async () => {
   logs("[INFO]", "Getting roles ...");
   const roles = await db.roles.findAll().catch((err) => {

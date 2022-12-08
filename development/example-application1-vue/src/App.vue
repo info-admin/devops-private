@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import MainVue from './components/MainVue.vue'
-//ok here 
+//ok here first test
 export default {
   name: 'App',
   components: {
