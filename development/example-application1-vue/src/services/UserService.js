@@ -22,3 +22,4 @@ export async function getEnv() {
     const response = await fetch(`/api/getEnv`);
     return await response.json();
 }
+// second new view commit
