@@ -3,7 +3,7 @@ const db = require("../models");
 const logs = require("../logging/log-service");
 const CustomError = require("../errors/custom-error.model");
 const { DATABASE_ERROR, USER_NOT_FOUND } = require("../errors/error-codes");
-
+// somme changes after day2_api_fixes'
 exports.setParam = async (id, value) => {
   logs("[INFO]", "Setting param : ", id);
   const data = await db.params
